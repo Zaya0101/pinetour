@@ -1,0 +1,253 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.bebas {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+p {
+  margin: 0;
+}
+.section {
+  background-image: url(/back.png);
+  background-size: cover;
+  height: 773px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.begin {
+  width: 300px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 10px;
+  margin-bottom: 200px;
+}
+.logo {
+  width: 100px;
+  height: 34px;
+  display: flex;
+}
+
+.word1 {
+  color: aliceblue;
+  font-size: 18px;
+}
+.word2 {
+  color: aliceblue;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+}
+.word3 {
+  width: 20px;
+  height: 20px;
+  padding-top: 15px;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: aliceblue;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.pure {
+  font-size: 60px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(232, 237, 242, 0.72);
+}
+.word4 {
+  font-size: 150px;
+  color: aliceblue;
+}
+.word5 {
+  font-size: 64px;
+  color: rgba(232, 237, 242, 0.72);
+}
+.section2 {
+  background-image: url(/back2.png);
+  background-size: cover;
+  height: 773px;
+}
+.navigation2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 40px;
+}
+.card {
+  width: 275.49px;
+  height: 370px;
+  border-radius: 40px;
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image1 {
+  background-image: url(/1.png);
+  background-size: cover;
+}
+.image2 {
+  background-image: url(/2.png);
+  background-size: cover;
+}
+.image3 {
+  background-image: url(/3.png);
+  background-size: cover;
+}
+.image4 {
+  background-image: url(/4.png);
+  background-size: cover;
+}
+.word6 {
+  color: rgba(253, 253, 254, 0.8);
+  text-align: center;
+  text-shadow: 0 4px 4.9px rgba(0, 0, 0, 0.65);
+  font-size: 27px;
+}
+.section3 {
+  background-image: url(/sec3.png);
+  background-size: cover;
+  height: 773px;
+  position: relative;
+}
+.navigation3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.word8 {
+  color: rgba(24, 24, 27, 0.7);
+  padding-bottom: 50px;
+}
+.destination_list {
+  width: 553px;
+  height: 640px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.destination-card {
+  height: 100px;
+  width: 453px;
+  border-radius: 120px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.destination-card1 {
+  background-color: #eee9d9;
+}
+.destination-card2 {
+  background-color: rgba(139, 184, 193, 0.8);
+}
+.destination-card3 {
+  background: rgba(170, 216, 215, 0.8);
+}
+.destination-card4 {
+  background: rgba(139, 192, 189, 0.8);
+}
+.destination-card5 {
+  background: rgba(151, 204, 224, 0.8);
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.word9 {
+  font-size: 24px;
+}
+.word10 {
+  font-size: 12px;
+}
+.circle2 {
+  width: 50px;
+  height: 50px;
+  background-color: aliceblue;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.icon {
+  width: 14px;
+  height: 14px;
+  display: flex;
+  justify-content: left;
+}
+.map {
+  width: 647px;
+  height: 640px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.mappin {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+}
+.one {
+  right: 241px;
+  top: 449px;
+}
+.destination-card1:hover {
+  border: 5px solid white;
+}
+.destination-card2:hover {
+  border: 5px solid white;
+}
+.destination-card3:hover {
+  border: 5px solid white;
+}
+.destination-card4:hover {
+  border: 5px solid white;
+}
+.destination-card5:hover {
+  border: 5px solid white;
+}
+.two {
+  right: 454px;
+  top: 306px;
+}
+.three {
+  top: 428px;
+  right: 626px;
+}
+.four {
+  top: 680px;
+  right: 454px;
+}
