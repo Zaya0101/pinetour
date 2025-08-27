@@ -252,14 +252,213 @@ p {
   right: 454px;
 }
 .circle-image {
-  width: 50px;
-  height: 50px;
-  background-color: aqua;
+  width: 245px;
+  height: 245px;
+  border-radius: 100%;
+  background-image: url(/loc1.png);
+  background-size: cover;
   position: absolute;
-  top: 100px;
-  right: 100px;
+  top: 344px;
+  right: 150px;
   display: none;
 }
 .destination-card1:hover ~ .circle-image {
   display: block;
+}
+.circle-image2 {
+  width: 245px;
+  height: 245px;
+  border-radius: 100%;
+  background-image: url(/loc2.png);
+  background-size: cover;
+  position: absolute;
+  top: 220px;
+  right: 350px;
+  display: none;
+}
+.destination-card2:hover ~ .circle-image2 {
+  display: block;
+}
+.circle-image3 {
+  width: 245px;
+  height: 245px;
+  border-radius: 100%;
+  background-image: url(/loc3.png);
+  background-size: cover;
+  position: absolute;
+  top: 350px;
+  right: 483px;
+  display: none;
+}
+.destination-card3:hover ~ .circle-image3 {
+  display: block;
+}
+.circle-image4 {
+  width: 245px;
+  height: 245px;
+  border-radius: 100%;
+  background-image: url(/loc4.png);
+  background-size: cover;
+  position: absolute;
+  top: 180px;
+  right: 522px;
+  display: none;
+}
+.destination-card4:hover ~ .circle-image4 {
+  display: block;
+}
+.circle-image5 {
+  width: 245px;
+  height: 245px;
+  border-radius: 100%;
+  background-image: url(/loc5.png);
+  background-size: cover;
+  position: absolute;
+  top: 195px;
+  right: 365px;
+  display: none;
+}
+.destination-card5:hover ~ .circle-image5 {
+  display: block;
+}
+.section4 {
+  background-image: url(/last.png);
+  height: 1120px;
+}
+.navigation4 {
+  padding-top: 50px;
+}
+.word11 {
+  font-size: 42px;
+  text-align: center;
+}
+.word12 {
+  font-size: 20px;
+  color: rgba(24, 24, 27, 0.7);
+  text-align: center;
+}
+.package {
+  width: 1200px;
+  height: 527px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  gap: 24px;
+}
+.card2 {
+  height: 527px;
+  width: 384px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.neg {
+  width: 384px;
+  height: 94px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  gap: 15px;
+}
+.zurhh {
+  width: 35px;
+  height: 35px;
+}
+.word13 {
+  font-size: 18px;
+}
+.hoyr {
+  width: 384px;
+  height: 433px;
+}
+
+.dolla {
+  font-size: 40px;
+}
+.essential {
+  font-size: 16px;
+  color: #919191;
+}
+
+.flex-center3 {
+  padding-left: 30px;
+}
+.inc {
+  padding-top: 32px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+.checkk {
+  width: 20px;
+  height: 20px;
+}
+.word14 {
+  font-size: 14px;
+}
+.list1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.list2 {
+  display: flex;
+}
+.select {
+  width: 336px;
+  height: 48px;
+  margin-top: 50px;
+  border-radius: var(--radius-rounded-full, 9999px);
+  background: #a4d1e2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+.tugsgul {
+  width: 1200px;
+  height: 204px;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 120px;
+  gap: 20px;
+}
+.fb {
+  width: 167px;
+  height: 44px;
+  border-radius: var(--radius-rounded-full, 9999px);
+  background: #fafbfc;
+  display: flex;
+  gap: 10px;
+  padding-left: 10px;
+  align-items: center;
+}
+.ig {
+  width: 167px;
+  height: 44px;
+  border-radius: var(--radius-rounded-full, 9999px);
+  background: #fafbfc;
+  display: flex;
+  gap: 10px;
+  padding-left: 10px;
+  align-items: center;
+}
+.woord {
+  color: #6972b5;
+  text-align: center;
+  font-size: 18px;
+}
+.fb1 {
+  width: 24px;
+  height: 24px;
+}
+.logo1 {
+  width: 101px;
+  height: 35px;
+}
+.loogo {
+  display: flex;
+  justify-content: end;
 }
